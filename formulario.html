@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="css/formulario.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form>
+        <legend>
+            <h2>Formulario</h2>
+        </legend>
+        <div class="elementos">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required="true" /><br /><br />
+        </div>
+        <div class="elementos">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required="true" /><br /><br />
+        </div>
+        <div class="datos">
+        <p>Sexo</p>
+            <input type="radio" id="femenino" name="genero" value="femenino" required="true">
+            <label for="feminino">Femenino</label><br>
+        
+            <input type="radio" id="masculino" name="genero" value="masculino" required="true">
+            <label for="masculino">Masculino</label><br>
+        
+            <input type="radio" id="otro" name="genero" value="otro" required="true">
+            <label for="outro">Otro</label><br><br>
+        </div>
+        <div class="datos">
+            <label for="fecha de nacimento"><b>Fecha de Nacimento:</b></label>
+            <input type="date" name="fecha de nacimento" id="fecha de nacimento" required="true"><br /><br />
+        </div>
+        <div class="elementos">
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" required="true" /><br /><br />
+        </div>
+        <div class="elementos">
+            <label for="telefono">Telefono</label>
+            <input type="number" id="telefono" name="telefono" required="true" /><br /><br />
+        </div>
+        <div class="elementos">
+            <label for="direccion">Direccion</label>
+            <input type="direccion" id="direccion" name="direccion" required="true" /><br /><br />
+        </div><br />
+        <div class="boton">
+            <button>Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>
